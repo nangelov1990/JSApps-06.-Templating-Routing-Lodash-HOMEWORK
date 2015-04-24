@@ -1,0 +1,14 @@
+<table>
+	<tr>
+		<th>Name</th>
+		<th>Grade</th>
+		<th>Website</th>
+	</tr>
+	{{#data}}
+	<tr id="{{id}}">
+		<td>{{name}}</td>
+		<td>{{grade}}</td>
+		<td><a href="">www.{{name}}-has-{{grade}}.com</a></td>
+	</tr>
+	{{/data}}
+</table>

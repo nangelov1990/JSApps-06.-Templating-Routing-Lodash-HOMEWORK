@@ -1,0 +1,15 @@
+<h2>{{heading}}</h2>
+{{#students}}
+<div class = "student-container">
+	<p>Name: {{firstName}} {{lastName}}</p>
+	{{#age}}
+	<p>Age: {{age}}</p>
+	{{/age}}
+	{{#gender}}
+	<p>Gender: {{gender}}</p>
+	{{/gender}}
+	{{#country}}
+	<p>Country: {{country}}</p>
+	{{/country}}
+</div>
+{{/students}}
