@@ -28,7 +28,7 @@ app.model = (function () {
 
 		defer.resolve(_this._data);
 		defer.reject(function () {
-			return 'Cannot get resourse';
+			return 'Cannot get resource';
 		});
 
 		// return defer.promise;

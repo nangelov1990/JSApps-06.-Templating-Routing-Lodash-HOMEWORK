@@ -1,0 +1,22 @@
+.group {
+    border: 2px solid black;
+    margin: 10px;
+    padding: 5px;
+}
+
+.heading {
+    display: block;
+    border-bottom: 2px solid black;
+}
+
+.book-heading {
+    border-bottom: 1px solid red;
+}
+
+.book {
+    border: 1px solid red;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 10px;
+    padding: 0 5px;
+}

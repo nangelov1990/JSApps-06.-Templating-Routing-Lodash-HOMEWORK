@@ -1,0 +1,13 @@
+<h2>{{heading}}</h2>
+{{#booksGroupedByLanguage}}
+    <div class="group">
+        <h3 class="heading">{{languageOfBook}}</h3>
+        {{#book}}
+        <div class="book">
+            <h4 class="book-heading">{{book}}</h4>
+            <p><strong>Author:</strong> {{author}}</p>
+            <p><strong>Price:</strong> {{price}}</p>
+        </div>
+        {{/book}}
+    </div>
+{{/booksGroupedByLanguage}}

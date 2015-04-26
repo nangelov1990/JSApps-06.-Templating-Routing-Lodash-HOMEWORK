@@ -1,0 +1,20 @@
+{{#author}}
+<div class="group">
+    {{#language}}
+    <span>{{language}}</span>
+    {{#language}}
+    {{#author}}
+    <span>Author: {{author}}</span>
+    {{/author}}
+    {{#averagePrice}}
+    <span>Average Price: {{averagePrice}}</span>
+    {{#averagePrice}}
+    {{#books}}
+    <div class="book">
+        <h3>{{name}}</h3>
+        <p>Language: {{language}}</p>
+        <p>Price: {{price}}</p>
+    </div>
+    {{/books}}
+</div>
+{{/author}}
